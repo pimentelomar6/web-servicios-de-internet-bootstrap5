@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!---Metadatos--->
+    <meta charset="UTF-8">
+    <meta name="author" content="Omar Pimentel">
+    <meta name="description" content="Web para Servicios de Internet">
+    <meta name="keywords" content="HTML, CSS, BOOTSTRAP, WEB SERVICES, INTERNET">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Titulo-->
+    <title>Lorem, ipsum dolor | Lorem ipsum dolor sit.</title>
+    <!--Favicon-->
+    <link rel="icon" href="images/logo.svg" type="image/x-icon">
+    <!----Bootstrap---->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@500&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <!--Bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+</head>
+<body>
+    <!--Barra de Navegacion-->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.svg" width="35" alt="logo de la pagina">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#sobre-mi">QUIENES SOMOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#servicios">SERVICIOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonios">NUESTROS CLIENTES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">CONTÁCTANOS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!--Seccion Hero-->
+    <section class="hero">
+      <div class="hero-principal1">
+        <div>
+          <h1>LOREM IPSUM DOLOR!</h1>
+          <h2 class="seccion-titul">Lorem ipsum dolor sit amet.</h2>
+          <p class="seccion-descr">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="imagen-hero">
+          <img class="hero-imagen-desarrollador" src="images/imagen22.jpg" alt="Globo de Internet">
+        </div> 
+      </div>
+      </section>
+
+    <!--Sobre Nosotros-->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">NOSOTROS</h2>
+        <p class="seccion-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, possimus! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, odit. Quibusdam nostrum vel soluta distinctio est dicta ab voluptate earum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, ipsum.</p>
+      </div>
+    </section>
+
+    <!---Planes-->
+    <section id="servicios" class="experiencia seccion-clara">
+      <h2 class="seccion-titulo">Planes Fibra</h2>
+      <h3 class="seccion-descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, eos?</h3>
+      <div class="container text-center">
+        <div class="row">
+           <!--Plan 1-->
+            <div class="columna col-12 col-md-4">
+                <i class="bi bi-laptop"></i>
+                <p class="experiencia-titulo">RESIDENCIALES</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum veritatis dicta accusamus quisquam possimus eos quam eaque, laboriosam odit libero molestias totam quo aperiam eum?</p>
+                
+              </div>
+           <!--Plan 2-->
+            <div class="columna col-12 col-md-4">
+              <i class="bi bi-laptop"></i>
+                <p class="experiencia-titulo">EMPRESARIALES</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum veritatis dicta accusamus quisquam possimus eos quam eaque, laboriosam odit libero molestias totam quo aperiam eum?</p>
+                
+            </div>
+            <!--Plan 2-->
+            <div class="columna col-12 col-md-4">
+              <i class="bi bi-laptop"></i>
+                <p class="experiencia-titulo">SIMETRICOS</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum veritatis dicta accusamus quisquam possimus eos quam eaque, laboriosam odit libero molestias totam quo aperiam eum?</p>
+                
+            </div>
+            
+            
+        </div>
+
+      </div>
+    </section>
+
+    <!--Testimonios-->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Nuestros Clientes</h2>
+      <h3 class="seccion-descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem, deleniti?</h3>
+
+      <!--Carrusel-->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img  class="testimonio-imagen rounded-circle" src="images/cliente1.svg" alt="cliente1">
+              <p class="testimonio-texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis ut optio laboriosam ducimus expedita earum.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Carlos Andrade</p>
+                <p class="cargo">Gerente de proyectos</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img  class="testimonio-imagen rounded-circle" src="images/cliente2.svg" alt="cliente2">
+              <p class="testimonio-texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis ut optio laboriosam ducimus expedita earum.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Jane Done</p>
+                <p class="cargo">Diseñador Grafico</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img  class="testimonio-imagen rounded-circle" src="images/cliente3.svg" alt="cliente3">
+              <p class="testimonio-texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis ut optio laboriosam ducimus expedita earum.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Andres Garcia</p>
+                <p class="cargo">CEO de Ecoland</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!--Contacto-->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+                ¡Contáctanos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Lorem ipsum dolor sit amet. 
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto: pimentelomar6@gmail.com">
+                <button type="button">
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer---->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+      <img class="footer-logo" src="images/imagen.jpg" alt="logo"> 
+      <p class="footer-text text-center">Lorem ipsum dolor sit amet. <br> Lorem ipsum dolor sit.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#" target="_blank" rel="nooponer noreferrer">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="#" target="_blank" rel="nooponer noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="#" target="_blank" rel="nooponer noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Omar Pimentel (2022) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
