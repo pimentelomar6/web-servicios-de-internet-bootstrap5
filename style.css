@@ -12,6 +12,10 @@
 
 /* Estilos Generales */
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 section{
     display: flex;
     flex-direction: column;
